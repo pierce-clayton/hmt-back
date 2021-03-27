@@ -1,24 +1,19 @@
-# README
+# How Much Time backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Check out the app [here](https://github.com/technicholy/hmt-front).
 
-Things you may want to cover:
+This backend is required for the app to function. To get this running for yourself, 
 
-* Ruby version
+* clone repository
 
-* System dependencies
+* `rails db:migrate` from the project directory
 
-* Configuration
+* `rails s`
 
-* Database creation
+* open index.html from the frontend on your browser
 
-* Database initialization
+You will need the backend to run on the machine you want to open the frontend on.
 
-* How to run the test suite
+## Notes
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This uses the Rails scaffold to set up the models, controllers, and db schema. The routes use the `resources` helper. Overall, this got the most out of the speed from rails since there was very little I needed to modify to get things to work.
